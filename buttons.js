@@ -1,4 +1,4 @@
-<script>
+
   function buttonValue() {
     let values = document.getElementById('values').value;
     let random = Math.ceil(Math.random() * values);
@@ -21,4 +21,3 @@
     }
     return false;
   }
-</script>
